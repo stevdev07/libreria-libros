@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	int n, i, c, j, respuesta;
+	int n, i, c, j;
 	
 	printf("INGRESE LA CANTIDAD DE LIBROS QUE DESEA REGISTRAR: ");
 	scanf("%d", &n);
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
 	for(i = 0; i<n; i++){
 		printf("%-20s %-20s %-20s %-20s %-10.2f %-10d %-10.2f\n", TITULO[i], AUTOR[i], GENERO[i], ISBN[i], PRECIO[i], STOCK[i], GANANCIA[i]);
 	}
-	//Profe lo de verde y rojo lo busque de varias maneras pero me dañaba lo que ya tenia hecho para implementarlo:(
+	//Profe lo de verde y rojo lo busque de varias maneras pero me daÃ±aba lo que ya tenia hecho para implementarlo:(
 	
 	//Filtro de busqueda:
 	
